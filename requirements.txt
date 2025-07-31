@@ -1,0 +1,10 @@
+python-dotenv 
+azure-identity
+# langgraph
+# langsmith
+# langchain_community 
+# langchain_anthropic 
+# langchain-tavily 
+# langchain_experimental 
+matplotlib 
+langgraph
