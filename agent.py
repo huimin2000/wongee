@@ -16,10 +16,10 @@ def main():
 
     # Connect to the Agent client
     agent_client = AgentsClient(
-    endpoint=project_endpoint,
-    credential=DefaultAzureCredential
-        (exclude_environment_credential=True,
-         exclude_managed_identity_credential=True)
+        endpoint=project_endpoint,
+        credential=DefaultAzureCredential
+            (exclude_environment_credential=True,
+             exclude_managed_identity_credential=True)
     )
     # with agent_client:
     #     # Upload the data file and create a CodeInterpreterTool
